@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS retail_sales_db;
+
 USE retail_sales_db;
+
 CREATE TABLE retail_sales(
 row_id INT PRIMARY KEY,
 order_id VARCHAR(50),
@@ -21,3 +23,4 @@ quantity INT,
 discount FLOAT,
 profit FLOAT
 );
+
